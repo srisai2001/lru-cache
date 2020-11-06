@@ -64,6 +64,7 @@ void LRUCache::display()
 	// all the elements in it
 	for (auto it = dq.begin(); it != dq.end();
 		it++)
+		cout << (*it) << " ";
 
 	cout << endl;
 }
@@ -83,4 +84,4 @@ int main()
 
 	return 0;
 }
-
+// This code is contributed by Satish Srinivas
